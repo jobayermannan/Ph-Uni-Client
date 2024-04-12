@@ -49,7 +49,7 @@ const AdminRoutes= [
 				path:'createdj',
 				element: <CreateStudent/>
 			},
-		]
+		]		
 	}
 ]
 
