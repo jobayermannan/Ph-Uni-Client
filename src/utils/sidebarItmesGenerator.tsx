@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+
 import { TSidebarItem, TUserPath } from "../types";
 import { NavLink } from "react-router-dom";
 

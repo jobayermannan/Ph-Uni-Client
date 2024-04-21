@@ -1,10 +1,12 @@
 
 import { ReactNode } from 'react'
-import AdminDashboard from '../pages/admin/AdminDashboard'
-import CreateAdmin from '../pages/admin/CreateAdmin'
-import CreateFaculty from '../pages/admin/CreateFaculty'
-import CreateStudent from '../pages/admin/CreateStudent'
+import AdminDashboard from '../Ph-Uni-client/src/pages/admin/AdminDashboard'
+import CreateAdmin from '../Ph-Uni-client/src/pages/admin/CreateAdmin'
+import CreateFaculty from '../Ph-Uni-client/src/pages/admin/CreateFaculty'
+import CreateStudent from '../Ph-Uni-client/src/pages/admin/CreateStudent'
 import { NavLink } from 'react-router-dom'
+import React from 'react'
+
 
 type TRoutes ={
 	
