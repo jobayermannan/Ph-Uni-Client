@@ -1,11 +1,10 @@
-import { Layout, Menu, MenuProps, theme } from 'antd';
-import { UploadOutlined, UserOutlined, VideoCameraOutlined } from '@ant-design/icons';
-import { createElement } from 'react';
-import { NavLink, Outlet } from 'react-router-dom';
-import { sidebarItemGenerator } from '../../utils/sidebarItmesGenerator';
-import { AdminRoutes } from '../../routes/admin.routes';
+import { Layout } from 'antd';
+
+
+import { Outlet } from 'react-router-dom';
+
 import { Content, Header } from 'antd/es/layout/layout';
-import Sider from 'antd/es/layout/Sider';
+
 import SidebarItem from './Sidebar';
 
 
