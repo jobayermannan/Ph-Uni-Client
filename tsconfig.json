@@ -5,9 +5,10 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
+    "moduleResolution": "node", // Changed from "bundler" to "node" for better compatibility
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -18,7 +19,15 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Base URL and Paths for Absolute Imports */
+    "baseUrl": "src", // Set the base URL to the src directory for absolute imports
+    "paths": {
+      "components/*": ["components/*"],
+      "features/*": ["features/*"],
+      // Add more path aliases as needed
+    }
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
