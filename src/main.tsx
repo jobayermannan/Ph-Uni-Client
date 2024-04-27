@@ -7,6 +7,7 @@ import router from './routes/routes'; // Assuming routes.tsx exports a router ob
 import { Provider } from 'react-redux';
 import { persistor, store } from './redux/store';
 import { PersistGate } from 'redux-persist/integration/react';
+import { Toaster } from 'sonner';
 
 // Ensure the element exists before attempting to create a root.
 const rootElement = document.getElementById('root');
@@ -21,5 +22,6 @@ root.render(
         <RouterProvider router={router} />
       </PersistGate>
     </Provider>
+    <Toaster></Toaster>
   </React.StrictMode>,
 );

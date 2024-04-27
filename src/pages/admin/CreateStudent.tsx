@@ -1,11 +1,11 @@
 import React from 'react'
 
-const CreateStudent = () => {
+const CreateMember = () => {
   return (
 	 <div>
-		CreateStudent  Dj
+		Create Member
 	 </div>
   )
 }
 
-export default CreateStudent
+export default CreateMember

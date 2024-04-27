@@ -1,3 +1,7 @@
+
+
+
+
 {
   "compilerOptions": {
     "target": "ES2020",
@@ -5,10 +9,9 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
-    "allowSyntheticDefaultImports": true,
 
     /* Bundler mode */
-    "moduleResolution": "node", // Changed from "bundler" to "node" for better compatibility
+    "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -19,16 +22,55 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-
-    /* Base URL and Paths for Absolute Imports */
-    "baseUrl": "src", // Set the base URL to the src directory for absolute imports
-    "paths": {
-      "components/*": ["components/*"],
-      "features/*": ["features/*"],
-      // Add more path aliases as needed
-    }
+    "noFallthroughCasesInSwitch": true
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// {
+//   "compilerOptions": {
+//     "target": "ES2020",
+//     "useDefineForClassFields": true,
+//     "lib": ["ES2020", "DOM", "DOM.Iterable"],
+//     "module": "ESNext",
+//     "skipLibCheck": true,
+//     "allowSyntheticDefaultImports": true,
+
+//     /* Bundler mode */
+//     "moduleResolution": "node", // Changed from "bundler" to "node" for better compatibility
+//     "allowImportingTsExtensions": true,
+//     "resolveJsonModule": true,
+//     "isolatedModules": true,
+//     "noEmit": true,
+//     "jsx": "react-jsx",
+
+//     /* Linting */
+//     "strict": true,
+//     "noUnusedLocals": true,
+//     "noUnusedParameters": true,
+//     "noFallthroughCasesInSwitch": true,
+
+//     /* Base URL and Paths for Absolute Imports */
+//     "baseUrl": "src", // Set the base URL to the src directory for absolute imports
+ 
+//   },
+//   "include": ["src"],
+//   "references": [{ "path": "./tsconfig.node.json" }]
+// }
